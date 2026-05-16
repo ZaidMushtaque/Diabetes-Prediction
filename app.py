@@ -67,7 +67,7 @@ elif not st.session_state.logged_in and choice == "Login":
 elif st.session_state.logged_in:
 
     st.success(f"Welcome {st.session_state.username}")
-    st.title("AAC Diabetes Predictor")
+    st.title("Diabetes Predictor")
 
     preg     = st.number_input('Pregnancies', 0, 20, 1)
     glucose  = st.number_input('Glucose', 0, 300, 120)
